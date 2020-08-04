@@ -22,20 +22,20 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}}};
   </script>
 
-  <meta name="description" content="摘要：测试一下markdown编辑器，也顺便测试一下hexo的命令和其他之类的部署情况。（好吧，其实测试hexo的命令和next主题花费了我好多时间，导致课题都没有搞，呜呜）">
+  <meta name="description" content="摘要：今天搭建了个个人博客网站，在此记录在搭建博客过程中常用的一些操作，包括博客网站的：环境搭建；配置说明；撰写、部署；以便以后可以快速查阅，节省时间，提高效率。（本篇博客主要想作为一个简洁的速查表来用，并非教程，如需教程可去知乎查找）">
 <meta property="og:type" content="article">
-<meta property="og:title" content="“使用说明文档”">
-<meta property="og:url" content="http://yoursite.com/2020/07/24/tags_%20test/index.html">
+<meta property="og:title" content="hexo搭建博客速查">
+<meta property="og:url" content="http://yoursite.com/2020/07/24/%E5%8D%9A%E5%AE%A2%E9%80%9F%E6%9F%A5/index.html">
 <meta property="og:site_name" content="辣椒炒肉">
-<meta property="og:description" content="摘要：测试一下markdown编辑器，也顺便测试一下hexo的命令和其他之类的部署情况。（好吧，其实测试hexo的命令和next主题花费了我好多时间，导致课题都没有搞，呜呜）">
+<meta property="og:description" content="摘要：今天搭建了个个人博客网站，在此记录在搭建博客过程中常用的一些操作，包括博客网站的：环境搭建；配置说明；撰写、部署；以便以后可以快速查阅，节省时间，提高效率。（本篇博客主要想作为一个简洁的速查表来用，并非教程，如需教程可去知乎查找）">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-07-24T03:13:00.000Z">
-<meta property="article:modified_time" content="2020-08-03T14:16:38.000Z">
+<meta property="article:modified_time" content="2020-08-04T09:19:12.000Z">
 <meta property="article:author" content="jiangds">
-<meta property="article:tag" content="test">
+<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/2020/07/24/tags_%20test/">
+<link rel="canonical" href="http://yoursite.com/2020/07/24/%E5%8D%9A%E5%AE%A2%E9%80%9F%E6%9F%A5/">
 
 
 <script class="page-configurations">
@@ -48,7 +48,7 @@
   };
 </script>
 
-  <title>“使用说明文档” | 辣椒炒肉</title>
+  <title>hexo搭建博客速查 | 辣椒炒肉</title>
   
 
 
@@ -181,7 +181,7 @@
 
       <!--noindex-->
       <section class="post-toc-wrap sidebar-panel">
-          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#摘要："><span class="nav-number">1.</span> <span class="nav-text">摘要：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#随手写点代码"><span class="nav-number">1.1.</span> <span class="nav-text">随手写点代码</span></a></li></ol></li></ol></div>
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#摘要："><span class="nav-number">1.</span> <span class="nav-text">摘要：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-环境搭建"><span class="nav-number">1.1.</span> <span class="nav-text">1.环境搭建</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-配置说明"><span class="nav-number">1.2.</span> <span class="nav-text">2. 配置说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-撰写"><span class="nav-number">1.3.</span> <span class="nav-text">3. 撰写</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-部署"><span class="nav-number">1.4.</span> <span class="nav-text">4. 部署</span></a></li></ol></li></ol></div>
       </section>
       <!--/noindex-->
 
@@ -198,6 +198,12 @@
           <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
@@ -239,7 +245,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/24/tags_%20test/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/24/%E5%8D%9A%E5%AE%A2%E9%80%9F%E6%9F%A5/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -252,7 +258,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          “使用说明文档”
+          hexo搭建博客速查
         </h1>
 
         <div class="post-meta">
@@ -269,8 +275,17 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-08-03 22:16:38" itemprop="dateModified" datetime="2020-08-03T22:16:38+08:00">2020-08-03</time>
+                <time title="修改时间：2020-08-04 17:19:12" itemprop="dateModified" datetime="2020-08-04T17:19:12+08:00">2020-08-04</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/config/" itemprop="url" rel="index"><span itemprop="name">config</span></a>
+                </span>
+            </span>
 
           
 
@@ -283,10 +298,33 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><p>测试一下markdown编辑器，也顺便测试一下hexo的命令和其他之类的部署情况。（好吧，其实测试hexo的命令和next主题花费了我好多时间，导致课题都没有搞，呜呜）</p>
+        <h2 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h2><p>今天搭建了个个人博客网站，在此记录在搭建博客过程中常用的一些操作，包括博客网站的：<strong>环境搭建；配置说明；撰写、部署</strong>；以便以后可以快速查阅，节省时间，提高效率。（<em>本篇博客主要想作为一个简洁的速查表来用，并非教程，如需教程可去知乎查找</em>）</p>
 <a id="more"></a>
-<h3 id="随手写点代码"><a href="#随手写点代码" class="headerlink" title="随手写点代码"></a>随手写点代码</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> torch.nn <span class="keyword">as</span> nn</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line">torch.save(model.state_dict(),path)</span><br><span class="line"></span><br><span class="line">model = theModelClass(*args, **kwargs)</span><br><span class="line">model.load_state_dict(torch.load(path))</span><br><span class="line">model.eval()</span><br></pre></td></tr></table></figure>
 
+<h3 id="1-环境搭建"><a href="#1-环境搭建" class="headerlink" title="1.环境搭建"></a>1.环境搭建</h3><p>搭建个人博客需要安装Git，Node.js，npm工具，Hexo。<br>windows下安装git，node.js直接去官网下安装包即可，linux下根据系统来安装，比如ubuntu/debian系统通过</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install [git&#x2F;nodejs&#x2F;npm]</span><br></pre></td></tr></table></figure>
+<p>即可。</p>
+<p><strong>安装hexo</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p><strong>初始化hexo（仅初始化一次即可）</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init [博客根目录文件夹名字]</span><br></pre></td></tr></table></figure>
+<p><strong>与github建立SSH连接</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name [&quot;yourname&quot;]</span><br><span class="line">git config --global user.email [&quot;youremail&quot;]</span><br><span class="line"></span><br><span class="line">ssh-keygen -t rsa -C [&quot;youremail&quot;] # 生成密钥-公钥对</span><br><span class="line"></span><br><span class="line">ssh -T git@github.com              # 查看是否与自己的github账号建立起通信来</span><br></pre></td></tr></table></figure>
+<p>具体流程在此不再赘述，如需详细教程，请去知乎查找。</p>
+<h3 id="2-配置说明"><a href="#2-配置说明" class="headerlink" title="2. 配置说明"></a>2. 配置说明</h3><p>博客根目录下的<code>_config.yaml</code>文件是整个博客的配置文件，而<code>themes</code>文件夹下的那个<code>_config.yaml</code>文件是主题的配置文件。</p>
+<p>根目录下<code>_config.yaml</code>的配置:</p>
+<p><strong>与github仓库建立连接，用来部署：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;YourgithubName&#x2F;YourgithubName.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<h3 id="3-撰写"><a href="#3-撰写" class="headerlink" title="3. 撰写"></a>3. 撰写</h3><p>博客的内容都在根目录下的source/_posts文件夹下，编写博客即为编写该文件下的.md文件。</p>
+<p><strong>生成分类(生成标签同理)</strong>：进入source文件夹下执行：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+<p>然后source文件夹下会生成一个categories文件夹，进入并编辑那个.md文件：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章分类</span><br><span class="line">date: 2019-07-27 13:47:40</span><br><span class="line">type: categories     #这行是原本没有的，要后加进去</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>撰写文章的时候添加分类或者标签时，只需要在文章头部这样写：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 我是文章题目</span><br><span class="line">date: 2019-07-27 12:12:57</span><br><span class="line">categories: </span><br><span class="line">- 我的分类</span><br><span class="line">tags:</span><br><span class="line">- 标签1</span><br><span class="line">- 标签2</span><br><span class="line">- 标签3</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="4-部署"><a href="#4-部署" class="headerlink" title="4. 部署"></a>4. 部署</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  #清除之前生成的东西  </span><br><span class="line">hexo g      #生成静态页面</span><br><span class="line">hexo s      #本地启动服务预览效果 </span><br><span class="line">hexo d      #同步到github.io上</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -334,7 +372,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/test/" rel="tag"># test</a>
+              <a href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag"># 博客</a>
           </div>
 
         
